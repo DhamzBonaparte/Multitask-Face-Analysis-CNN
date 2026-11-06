@@ -39,4 +39,4 @@ Before tackling multi-task learning, I built a standalone binary classifier dedi
 ## 🚀 How to Run Locally
 1. Clone the repository:
    ```bash
-   git clone https://github.com/DhamzBonaparte/CNN---Age-Gender.git
+   git clone https://github.com/DhamzBonaparte/Multitask-Face-Analysis-CNN.git
