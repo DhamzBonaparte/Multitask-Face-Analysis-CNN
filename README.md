@@ -26,8 +26,8 @@ A single CNN with a shared Convolutional base that splits into two separate outp
 Before tackling multi-task learning, I built a standalone binary classifier dedicated entirely to predicting gender.
 
 ### 📊 Performance
-- **Gender Classification Accuracy:** **86.00%**
-- **Validation Loss:** **0.33**
+- **Gender Classification Accuracy:** **78.02%**
+- **Age REgression MAE:** **8.89**
 
 ### 🛠️ Architecture Highlights
 - **Architecture:** Sequential CNN with 3 Conv2D blocks and Dense heads.
