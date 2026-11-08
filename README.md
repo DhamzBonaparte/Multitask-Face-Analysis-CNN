@@ -10,8 +10,8 @@ Both models were trained on the **UTKFace** dataset using custom `tf.data` pipel
 A single CNN with a shared Convolutional base that splits into two separate output branches to predict two different targets simultaneously.
 
 ### 📊 Performance
-- **Gender Classification Accuracy:** **82.14%**
-- **Age Regression MAE:** **9.68 years** (Average error)
+- **Gender Classification Accuracy:** **78.02%**
+- **Age Regression MAE:** **8.89 years** (Average error)
 
 ### 🛠️ Architecture Highlights
 - **Shared Base:** 3 Convolutional Blocks (Conv2D + BatchNormalization + ReLU + MaxPooling).
@@ -26,8 +26,8 @@ A single CNN with a shared Convolutional base that splits into two separate outp
 Before tackling multi-task learning, I built a standalone binary classifier dedicated entirely to predicting gender.
 
 ### 📊 Performance
-- **Gender Classification Accuracy:** **78.02%**
-- **Age Regression MAE:** **8.89**
+- **Gender Classification Accuracy:** **86%**
+- **Validation Loss:** **0.33**
 
 ### 🛠️ Architecture Highlights
 - **Architecture:** Sequential CNN with 3 Conv2D blocks and Dense heads.
