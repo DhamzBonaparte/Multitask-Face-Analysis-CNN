@@ -27,7 +27,7 @@ Before tackling multi-task learning, I built a standalone binary classifier dedi
 
 ### 📊 Performance
 - **Gender Classification Accuracy:** **78.02%**
-- **Age REgression MAE:** **8.89**
+- **Age Regression MAE:** **8.89**
 
 ### 🛠️ Architecture Highlights
 - **Architecture:** Sequential CNN with 3 Conv2D blocks and Dense heads.
